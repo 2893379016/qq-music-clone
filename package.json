@@ -1,0 +1,28 @@
+{
+  "name": "qq-music-clone",
+  "version": "1.0.0",
+  "description": "QQ音乐风格在线音乐流媒体网站",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build": "echo '构建完成'",
+    "test": "echo '测试完成'"
+  },
+  "keywords": ["music", "streaming", "qq-music", "web-app"],
+  "author": "开发者",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
